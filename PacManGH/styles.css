@@ -1,17 +1,15 @@
 h1 {
     color: yellow;
-    margin-left: 80px;
-    margin-top: 40px;
+    
     font: Helvetica;
-    text-align: left;
+    text-align: center;
     font-size: 64px;
 
 }
-button {
+#game button {
     background-color: yellow;
     height: 40px;
     width: 200px;
-    margin-left: 80px;
     font: Helvetica;
     text-align: center;
     font-size: 24px;
