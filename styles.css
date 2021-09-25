@@ -153,6 +153,13 @@ p {
     display:flex;
     
 }
+ #section-b {
+     grid-column: span 4;
+ }
+ #showcase {
+     grid-column: span 4;
+ }
+
  .content-wrap,
  #section-b ul {
      grid-column: 2/4;
