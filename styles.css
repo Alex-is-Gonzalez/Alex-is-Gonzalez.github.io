@@ -157,8 +157,8 @@ p {
 #section-b {
      grid-column: span 4;
  }
- #showcase {
-     grid-column: auto;
+ #showcase.grid {
+     grid-column: 2/4;
  }
  #showcase .alex {
      grid-column: auto;
