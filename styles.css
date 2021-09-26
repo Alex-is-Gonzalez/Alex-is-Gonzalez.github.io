@@ -156,9 +156,10 @@ p {
  
 #section-b {
      grid-column: span 4;
+     display:flex;
  }
  #showcase.grid {
-     grid-column: 2/4;
+     display: flex;
  }
  #showcase .alex {
      grid-column: auto;
