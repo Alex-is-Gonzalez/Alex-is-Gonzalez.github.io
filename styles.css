@@ -8,11 +8,11 @@ body {
     line-height: 1.5;
     text-align: center;
 }
-img {
+/* img {
     display: box;
     width: 100%;
     height: auto;
-}
+} */
 
 h1, h2, h3 {
     margin: 0;
