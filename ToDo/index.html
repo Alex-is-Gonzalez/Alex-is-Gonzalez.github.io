@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do</title>
+
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"   crossorigin="anonymous">
+
+    
+
+<div>
+    <link rel="stylesheet" href="/styles.css">
+    
+     <a href="/index.html"  class="btn btn-outline-warning"> Home</a>
+     <a href="/projects.html"  class="btn btn-outline-warning"> Projects</a>
+     <a href="/education.html"  class="btn btn-outline-warning"> Education</a>
+     <a href="https://github.com/Alex-is-Gonzalez"  class="btn btn-outline-warning"> Github</a>
+ </div>
+
+  </head>
+   
+  <body class="body">
+    
+ 
+  <h1 id="header">ToDo</h1>
+
+    <!-- we will put our teact component inside this div -->
+    <div id="root"></div>
+    
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="todo.js" defer type="text/babel"></script>        
+    <script src="form.js" defer type="text/babel"></script>    
+    <script src="index.js" defer type="text/babel"></script> 
+     
+
+  </body>
+</html>

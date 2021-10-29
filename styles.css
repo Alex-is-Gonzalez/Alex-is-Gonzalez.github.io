@@ -53,7 +53,7 @@ p {
    
 }
 #showcase .alex {
-    width: 20em;
+    width: auto;
     height: 25em;
     border-radius: 45%;
     display: box;
@@ -91,6 +91,7 @@ p {
 /*Section B Cards*/
 
 #section-b {
+    background: #0f44f1;
     padding: 2em 1em 1em;
 }
 
@@ -101,13 +102,14 @@ p {
 }
 #section-b img {
     display:box;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 #section-b li {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
+    width: auto;
 }
 .card-content {
     padding:1.5em;
@@ -170,7 +172,7 @@ p {
 
  #section-b li {
      display:flex;
-     width: 31%;
+     width: 30%;
  }
  
 }
