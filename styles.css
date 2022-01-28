@@ -77,10 +77,14 @@ p {
 
 /* Section A Video*/
 #section-a {
-    background: #0f44f1;
+    background:black;
     color: white;
     padding: 1em;
     
+    
+}
+#main {
+    justify-content: center;
 }
 
 #section-a .content-wrap {
@@ -90,30 +94,53 @@ p {
 
 /*Section B Cards*/
 
-#section-b {
+
+#section-b  {
     background: #0f44f1;
     padding: 2em 1em 1em;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.card {
+    
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
 }
 
 #section-b ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 #section-b img {
-    display:box;
-    width: 100%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    height: 10em;
 }
 #section-b li {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
     width: auto;
+    justify-content: center;
+    
 }
 .card-content {
     padding:1.5em;
+    
+    
 }
+
 
 /*section C*/
 
