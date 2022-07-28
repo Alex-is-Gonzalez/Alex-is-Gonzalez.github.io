@@ -209,7 +209,6 @@ p {
     display: flex;
     flex-flow: column wrap;
     justify-content:left;
-    align-items: center; 
     justify-content: space-around; 
     width: auto;
 }
@@ -218,11 +217,13 @@ p {
     justify-content: center;
     align-items: center;
     padding: 0em 1rem;
-    max-width: 50%;
+    margin: 1em 0em;
+    min-width: 50%;
 }
 
 .connectDiv p {
     padding-left: 1em;
+    min-width: 90%;
 }
  .connectNumbers {
     font-size: 90px;
