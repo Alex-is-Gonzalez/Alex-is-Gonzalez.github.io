@@ -1,3 +1,21 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
 /*core styles*/
 body {
     margin: 0;
@@ -80,8 +98,17 @@ p {
     background:black;
     color: white;
     padding: 1em;
+    display: flex;  
+    flex-flow: column wrap;  
     
-    
+}
+#logoLanguages {
+    flex-direction: row;
+    padding: .5em;
+}
+#logoLanguages img{
+    height:3rem;
+    width: 3rem;
 }
 #main {
     justify-content: center;
@@ -89,6 +116,11 @@ p {
 
 #section-a .content-wrap {
     padding: 0 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
     
 }
 
@@ -131,14 +163,16 @@ p {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
-    width: auto;
-    justify-content: center;
-    
+    min-width: 100%;
+    justify-content: center;    
 }
 .card-content {
     padding:1.5em;
     
     
+}
+.card {
+    border: #fff;
 }
 
 
@@ -164,14 +198,52 @@ p {
     background: black;
     color: white;
     text-align: center;
-
+    width: 100%;
 }
 #main-footer a {
     color:#0817f0;
     text-decoration: none;
 }
+/*Section connect*/ 
+#connectContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:left;
+    align-items: center; 
+    justify-content: space-around; 
+    width: auto;
+}
+.connectDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 1rem;
+    max-width: 50%;
+}
 
-@media(min-width: 700px) {
+.connectDiv p {
+    padding-left: 1em;
+}
+ .connectNumbers {
+    font-size: 90px;
+    background-color: #0817f0;
+    border: white 2px solid;   
+}
+#main-foot {
+    padding: 2em;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#main-foot a {
+    color:#0817f0;
+    text-decoration: none;
+}
+
+@media(min-width: 995px) {
   .grid {
       display: grid;
       grid-template-columns: 1fr repeat(2, minmax(auto, 25em))
@@ -182,8 +254,12 @@ p {
     display:flex;
     
 }
- 
 
+#section-a {
+    display: flex;  
+    flex-flow: row nowrap;  
+    
+}
 .content-wrap,
  #section-b ul {
      grid-column: 2/4;
@@ -192,14 +268,42 @@ p {
  .box, #main-footer div {
      grid-column: span 2;
  }
- #section-b ul {
-     display:flex;
-     justify-content: space-around;
- }
+ #section-b.grid {
+    display:flex;
+    justify-content: left; 
+    flex-flow: row wrap;
+}
+ 
+ #cardList {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;  
+    max-width: 33%;
+}
+#section-b li {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;  
+   
+}
 
- #section-b li {
-     display:flex;
-     width: 30%;
- }
+ 
+.connectDiv {
+    display: flex;
+    width: 30%; 
+    justify-content: left;
+    align-items: center;
+    border: #0817f0 solid 2px;
+    padding: 0em 1rem;
+   
+
+}
+ .connectNumbers {
+    font-size: 60px;
+    background-color: #0817f0;
+    padding: 0rem 2rem ;
+    
+}
+
  
 }

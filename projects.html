@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- adding icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
@@ -17,92 +19,134 @@
         <a href="projects.html"  class="btn btn-outline-warning"> Projects</a>
         <a href="education.html"  class="btn btn-outline-warning"> Education</a>
         <a href="https://github.com/Alex-is-Gonzalez"  class="btn btn-outline-warning"> Github</a>
+        <a href="connect.html"  class="btn btn-outline-warning">Project Inquires</a>
       </div>
     </head>
 <body>
 
 
-<section id="section-b" class="grid" >
-  <ul>
+  <section id="section-b" class="grid" >
+    <ul>
       <li>
           <div class ="card">
               <img src="PacManGH/readme.png" alt="">
-              <div class="card-content">
-                <h3>PacMen-Factory</h3>
-                  <p>This project allows the user to add multiple PacMan images to the webpage. To add a PacMan image press the "Add PacMan" button. A PacMan image will be added at a random position and velocity on the page. To make the PacMen move, press "Move PacMan" button.</p>
+               <div class="card-content">
+                <h3 class="card-title">PacMen-Factory</h3> 
+                   <p>This project allows the user to add multiple PacMan images to the webpage. To add a PacMan image press the "Add PacMan" button. A PacMan image will be added at a random position and velocity on the page. To make the PacMen move, press "Move PacMan" button.  
+                  </p>
                     <a href="PacManGH/starter.html" class="btn btn-primary">Play</a>
                     <a href="https://github.com/Alex-is-Gonzalez/PacMen-Factory"  class="btn btn-primary">Go To GitHub Repo</a>
+                          
               </div>
           </div>
-      </li>
+      </li> 
       <li>   
           <div class ="card">
               <img src="BusGH/map.png" alt="">
               <div class="card-content">
-                  <h3>Real-Time-Bus-Tracker</h3>
+                  <h3 class="card-title">Real-Time-Bus-Tracker</h3>
                   <p>This code has the ability to display real time bus tracking data from Massachusetts Bay Transportation Authority. In order to do this, API keys were created to use Google Maps and MBTA data. There are two colors of bus icons, each representing opposite directions of travel. Launch the code and the buses'  location will update every 15 seconds.</p>
-                   <a href="BusGH/index.html" class="btn btn-primary">Launch</a>
-                   <a href="https://github.com/Alex-is-Gonzalez/Real-Time-Bus-Tracker"  class="btn btn-primary">Go To GitHub Repo</a>
+                    <a href="BusGH/index.html" class="btn btn-primary">Launch</a>
+                    <a href="https://github.com/Alex-is-Gonzalez/Real-Time-Bus-Tracker"  class="btn btn-primary">Go To GitHub Repo</a>
               </div>
           </div>
-      </li>
-      <li>
+        </li>
+        <li>
+            <div class ="card">
+                <img src="EyesGH/Eyes.png" alt="">
+                <div class="card-content">
+                  <h3 class="card-title">Eyes-Tracking-Cursor</h3>
+                    <p>This monster is interactive. Once the page is loaded it's eyes will follow the user's cursor</p>
+                      <a href="EyesGH/eyes.html" class="btn btn-primary">Play</a>
+                      <a href="https://github.com/Alex-is-Gonzalez/Eyes-Tracking-Cursor"  class="btn btn-primary">Go To GitHub Repo</a>
+                </div>
+            </div>
+        </li> 
+        <li>
+                <!-- adding todo list here -->
           <div class ="card">
-              <img src="EyesGH/Eyes.png" alt="">
+              <img src="ToDo/todo.png" alt="">
               <div class="card-content">
-                <h3>Eyes-Tracking-Cursor</h3>
-                  <p>This monster is interactive. Once the page is loaded it's eyes will follow the user's cursor</p>
-                    <a href="EyesGH/eyes.html" class="btn btn-primary">Play</a>
-                    <a href="https://github.com/Alex-is-Gonzalez/Eyes-Tracking-Cursor"  class="btn btn-primary">Go To GitHub Repo</a>
+                <h3 class="card-title">ToDo Checklist Using React</h3>
+                  <p>This ToDo list has the ability to add and remove task as needed!</p>
+                    <a href="ToDo/index.html" class="btn btn-primary">Create List</a>
+                    <a href="https://github.com/Alex-is-Gonzalez/ToDo"  class="btn btn-primary">Go To GitHub Repo</a>
               </div>
           </div>
       </li> 
       <li>
-        <!-- adding todo list here -->
-        <div class ="card">
-            <img src="ToDo/todo.png" alt="">
+          <!-- adding React here -->
+          <div class ="card">
+               <img src="bank.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">React Banking App</h3>
+                  <p>This Banking App was created using React and is currently deployed using Amazon Web Services.</p>
+                    <a href="http://alexis-gonzalez-banking-app.s3-website-us-west-1.amazonaws.com" class="btn btn-primary">Enter the Bank</a>
+                    <a href="https://github.com/Alex-is-Gonzalez/Bad_Bank"  class="btn btn-primary">Go To GitHub Repo</a>
+              </div>
+          </div>
+       </li> 
+      <li>
+            <!-- adding React here -->
+         <div class ="card">
+            <img src="bank.png" alt="">
             <div class="card-content">
-              <h3 class="card-title">ToDo</h3>
-                <p>This ToDo list has the ability to add and remove task as needed!</p>
-                  <a href="ToDo/index.html" class="btn btn-primary">Create List</a>
-                  <a href="https://github.com/Alex-is-Gonzalez/ToDo"  class="btn btn-primary">Go To GitHub Repo</a>
+              <h3 class="card-title">React Banking App</h3>
+              <p>Backend to the React Banking App, coming soon!</p>
+                      <!-- <a href="http://alexis-gonzalez-banking-app.s3-website-us-west-1.amazonaws.com" class="btn btn-primary">Enter the Bank</a>
+                      <a href=""  class="btn btn-primary">Go To GitHub Repo</a> -->
             </div>
         </div>
-    </li>
+        </li> 
+        <li>
+          <!-- adding React here -->
+          <div class ="card">
+              <img src="teach.png" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Classroom Book Tracker</h3>
+                <p>This project was built for and elementary classroom using a library API and local storage. The application lists the books the students read adding the title of the book to their local host. Everytime a book is submitted, the student will also be able to see a total pages read and recieve a catcus in their garden!</p>
+                    <a href="https://msreader.netlify.app" class="btn btn-primary">Enter the Classroom</a>
+                    <a href=""  class="btn btn-primary">Go To GitHub Repo</a>
+              </div>
+          </div>
+      </li> 
+      <li>
+        <!-- adding React here -->
+        <div class ="card">
+            <img src="ivy.png" alt="">
+            <div class="card-content">
+              <h3 class="card-title"> Ivy </h3>
+                <p> A FullStack aplication for ordering food that uses Next JS as the front end framework and MongoDB Atlas as the backend. In order to communicate from the front and back seemlessly Apollo and GraphQL were used. In addition this application uses Stripe as it's payment platform.</p>
+                  <a href="" class="btn btn-primary"> Enter Live Site</a>
+                  <a href="https://github.com/Alex-is-Gonzalez/Food_Order-"  class="btn btn-primary">Go To GitHub Repo</a>
+            </div>
+        </div>
+    </li> 
     <li>
       <!-- adding React here -->
       <div class ="card">
-          <img src="bank.png" alt="">
+          <img src="soon.png" alt="">
           <div class="card-content">
-            <h3 class="card-title">React Banking App</h3>
-              <p>This Bank App was created using React and is currently deployed using Amazon Web Services.</p>
-                <a href="http://alexis-gonzalez-banking-app.s3-website-us-west-1.amazonaws.com" class="btn btn-primary">Enter the Bank</a>
-                <a href=""  class="btn btn-primary">Go To GitHub Repo</a>
+            <h3 class="card-title">More Client Work in Progress</h3>
+              <p></p>
+                <!-- <a href="http://alexis-gonzalez-banking-app.s3-website-us-west-1.amazonaws.com" class="btn btn-primary">Enter the Bank</a>
+                <a href=""  class="btn btn-primary">Go To GitHub Repo</a> -->
           </div>
       </div>
   </li> 
-  <li>
-    <!-- adding React here -->
-    <div class ="card">
-        <img src="bank.png" alt="">
-        <div class="card-content">
-          <h3 class="card-title">React Banking App</h3>
-            <p>Backend to the React Bank App, coming soon!</p>
-              <!-- <a href="http://alexis-gonzalez-banking-app.s3-website-us-west-1.amazonaws.com" class="btn btn-primary">Enter the Bank</a>
-              <a href=""  class="btn btn-primary">Go To GitHub Repo</a> -->
-        </div>
-    </div>
-</li> 
-  </ul>
-</div>
-</section>
+          </ul>
+  </section>
 <footer id="main-footer" class="grid">
   <div> <a href="https://www.linkedin.com/in/alexis-gonzalez-866801125?trk=profile-badge" style="color:black">
-      <img class='contact' src="/linkedin.png" ></a> 
-    <a href="https://github.com/Alex-is-Gonzalez" style="color:black">
-        <img class='contact' src="/GitHub.png" ></a>
-        <a href="https://twitter.com/Go_N_Code" style="color:black"> 
-          <img class='contact' src="/Twitter.png" ></a></div>
+      <img class='contact' src="/linked.png" ></a> 
+  
+      <a href="https://github.com/Alex-is-Gonzalez">   
+        <img class='contact' src="GitHub.png" />
+       </a>
+          
+      <a href="https://twitter.com/Go_N_Code" >
+       <img class='contact'src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" />
+      </a>
   <div> project By <a href="" target="_blank">Alexis Gonzalez</a></div>
 
   
