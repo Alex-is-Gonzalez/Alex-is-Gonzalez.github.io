@@ -191,7 +191,8 @@ p {
 }
 
 #section-d .box:first-child {
-    background: #0f44f1;
+    background: black;
+    
 }
 #main-footer {
     padding: 2em;
@@ -244,6 +245,47 @@ p {
     color:#0817f0;
     text-decoration: none;
 }
+/* education page */
+
+#edSection {
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center; 
+   
+    
+}
+.edDiv {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
+
+ 
+}
+.schoolNames{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #0817f0;
+    border: white 2px solid;
+    min-width: 30%; 
+    max-width: 30%;
+    font-size: large;
+}
+.schoolNameP {
+    align-items: center;
+    justify-content: center;
+    padding:0em 1em;
+    min-width: 50%;
+    max-width: 50%;
+    border: white solid 2px;
+}
+.schoolNameP span {
+    border: solid 2px #0817f0;
+    font-size: larger;
+}
+
 
 @media(min-width: 995px) {
   .grid {
