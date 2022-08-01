@@ -280,15 +280,23 @@ p {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;  
-    max-width: 33%;
+    min-width: 100%;
+   
+}
+#section-b ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 #section-b li {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;  
     min-width: 33%;
+    max-width: 33%;
    
 }
+
 
 #connectContainer{
     display: flex;
