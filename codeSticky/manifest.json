@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Code Sticky",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "web/icons8-source-code-stickers-16.png",
+      "32": "web/icons8-source-code-stickers-32.png",
+      "128":"web/icons8-source-code-100 (1).png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "web_accessible_resources": ["ace.js"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+
+
+}
+
+  
